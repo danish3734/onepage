@@ -1,0 +1,54 @@
+/* Reset default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #444;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Section styles */
+section {
+    background-color: white;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1, h2 {
+    color: #333;
+}
+
+/* Paragraph styles */
+p {
+    color: #666;
+}
